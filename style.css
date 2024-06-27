@@ -1,0 +1,45 @@
+/* ---------- CSS Variables ---------- */
+:root{
+    /* Color theme taken from  Adobe Color */
+    /* Color Theme Swatches in Hex */
+    --cream: #EEF2F0;
+    --lt-green: #54d276; 
+    --med-green: #3ebd64;
+    --dk-green: #1e8232;
+
+    /* Other swatches for text & accents */
+    --white: #fff;
+    --lt-gray: #eaeaea;
+    --med-gray: #555;
+    --dk-gray: #222;
+
+    /* Shadows for Elements that are Not Square */
+    --filter-shadow-sm: drop-shadow(-3px 3px 7px var(--med-gray));
+    --filter-shadow-lg: drop-shadow(-6px 6px 10px var(--med-gray));
+
+    /* Adobe Font Family with Fallbacks */
+    --fonts: "halogen-flare", Tahoma, sans-serif;
+}
+
+body{
+    background-color: var(--dk-green);
+    background-image: url('swiss-valley.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:var(--dk-gray);
+    font-family: var(--fonts);
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+}
